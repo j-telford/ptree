@@ -2,7 +2,7 @@
 
 pTREE is a simple terminal-based file explorer written in Python using the curses library. It allows you to navigate and interact with your file system directly from the command line.
 
-![Screenshot](https://raw.githubusercontent.com/j-telford/ptree/main/assets/img/ptree-main.png)
+![Screenshot](assets/img/ptree-main.png)
 
 ## Features
 
@@ -16,42 +16,31 @@ pTREE is a simple terminal-based file explorer written in Python using the curse
 1. Clone the repository to your local machine:
 
 ```
-
 gh repo clone j-telford/ptree
-
 
 or
 
 git@github.com:j-telford/ptree.git
-
 
 ```
 
 2. Change to the project directory:
 
 ```
-
 cd /project/directory
-
 
 ```
 
 3. Run the ptree script:
 
-
 ```
-
 python picker.py
-
 
 or 
 
-
 python3 picker.py
 
-
 ```
-
 
 ![Project Screenshot](assets/img/ptree-project1.png)
 
