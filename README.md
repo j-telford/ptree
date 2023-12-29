@@ -37,6 +37,10 @@ cd /project/directory
 
 ```
 python -m venv .venv && source .venv/bin/activate
+
+or 
+
+python333 -m venv .venv && source .venv/bin/activate
 ```
 
 4. Run the ptree script:
