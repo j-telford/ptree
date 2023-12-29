@@ -21,14 +21,12 @@ gh repo clone j-telford/ptree
 or
 
 git@github.com:j-telford/ptree.git
-
 ```
 
 2. Change to the project directory:
 
 ```
 cd /project/directory
-
 ```
 
 3. Run the ptree script:
@@ -39,7 +37,6 @@ python picker.py
 or 
 
 python3 picker.py
-
 ```
 
 ![Project Screenshot](assets/img/ptree-project1.png)
