@@ -1,6 +1,8 @@
-# pTREE - Python Terminal File Explorer
+# pTREE - Python Terminal Tree Generator
 
-pTREE is a simple terminal-based file explorer written in Python using the curses library. It allows you to navigate and interact with your file system directly from the command line.
+pTREE is a simple terminal-based file tree grenerator written in Python using the curses library. It allows you to quickly and easily print a tree of an entire directory structure, which can then be copied into markdown code for sharing on GitHub README files, or other forms of documentation such a wikis etc.  
+
+***This software is not fully complete - only the `picker` has been created so far.***
 
 ![Screenshot](assets/img/ptree-main.png)
 
