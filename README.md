@@ -1,6 +1,6 @@
 # pTREE - Python Terminal Tree Generator
 
-pTREE is a simple terminal-based file tree grenerator written in Python using the curses library. It allows you to quickly and easily print a tree of an entire directory structure, which can then be copied into markdown code for sharing on GitHub README files, or other forms of documentation such a wikis etc.  
+pTREE is a simple terminal-based file tree grenerator written in Python using the curses library. It allows you to quickly and easily print a tree of an entire directory structure, which can then be copied into markdown code for easy pasting and sharing into  GitHub README files, or other forms of documentation such a wikis etc.  
 
 ***This software is not fully complete - only the `picker` has been created so far.***
 
@@ -8,7 +8,7 @@ pTREE is a simple terminal-based file tree grenerator written in Python using th
 
 ## Features
 
-Currently as the picker is the only part of the software that has been developed, you can navigate the directory tree and save your current directory path to the `SELECTED_PATH` variabl, which will currently print your path to `path.log` in your pTREE project directory.
+Currently as the picker is the only part of the software that has been developed, you can navigate the directory tree and save your current directory path to the `SELECTED_PATH` variabl, which will currently print your path to the `path.log` file in your pTREE project directory.
 
 - Navigate through directories using arrow keys.
 - Move up and down the directory structure with left and right arrow keys.
