@@ -8,6 +8,8 @@ pTREE is a simple terminal-based file tree grenerator written in Python using th
 
 ## Features
 
+Currently as the picker is the only part of the software that has been developed, you can navigate the directory tree and save your current directory path to the `SELECTED_PATH` variabl, which will currently print your path to `path.log` in your pTREE project directory.
+
 - Navigate through directories using arrow keys.
 - Move up and down the directory structure with left and right arrow keys.
 - Quit the program with the 'q' key.
@@ -31,7 +33,13 @@ git@github.com:j-telford/ptree.git
 cd /project/directory
 ```
 
-3. Run the ptree script:
+3. Create and activate a python virtual enviroment
+
+```
+python -m venv .venv && source .venv/bin/activate
+```
+
+4. Run the ptree script:
 
 ```
 python picker.py
