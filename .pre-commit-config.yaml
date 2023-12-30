@@ -1,0 +1,11 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 23.12.1  # Latest version of Black
+    hooks:
+      - id: black
+        language_version: python3
+
+  - repo: https://github.com/pylint-dev/pylint
+    rev: v3.0.3  # Latest version of Pylint
+    hooks:
+      - id: pylint
