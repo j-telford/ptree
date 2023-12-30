@@ -145,3 +145,11 @@ cython_debug/
 # Backup Dirs
 backup/
 archive/
+
+# NodeJS 
+node_modules/
+package-lock.json
+
+# App Logs
+logs/
+
