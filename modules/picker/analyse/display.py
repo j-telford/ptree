@@ -15,10 +15,8 @@ def display_directory_contents(stdscr, current_dir, cursor_y):
         stdscr (curses._CursesWindow): The curses window object.
         current_dir (str): The current directory path.
         cursor_y (int): The cursor position.
-
-    Returns:
-        None
     """
+
     stdscr.clear()
     height, width = stdscr.getmaxyx()
     display_directory_path(stdscr, current_dir, width)
