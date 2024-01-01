@@ -18,7 +18,7 @@ def create_symlink(stdscr):
     hide_cursor()  # Hide the cursor
     symlink_path = "/usr/local/bin/ptree"
     if not os.path.islink(symlink_path):
-        stdscr.addstr("Symbolic link not found. Create it? (y/n): ")
+        stdscr.addstr("Symbolic link not found. Create it? (y/N): ")
         stdscr.refresh()
         curses.echo()
         create_link = ""
