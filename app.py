@@ -23,7 +23,6 @@ import curses
 from modules.picker.analyse.navigation import navigate_directory
 from modules.picker.analyse.display import display_directory_contents
 from modules.picker.analyse.file_operations import write_selected_path
-from modules.first_run.sym_link import check_and_create_symlink
 
 
 def main(stdscr):
@@ -33,9 +32,6 @@ def main(stdscr):
     Args:
         stdscr: The curses screen object.
     """
-
-    # Check for symbolic link
-    check_and_create_symlink(stdscr)
 
     # Set up the screen
     current_dir = os.path.expanduser("~")
