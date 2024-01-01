@@ -1,7 +1,7 @@
 """
 Module Name: Main App
 Author: Jay Telford
-Date: 30/12/23
+Date: 30/12/23 - v0.0.001-alpha
 Description: Primary app that is run for the program.
 
 This module contains the main function that serves as the entry point for the program. 
